@@ -1,0 +1,69 @@
+.services.wp-block-columns {
+    margin-bottom: 1.25em;
+}
+.services .wp-block-column {
+    min-height: 435px;
+    padding: 2.5em!important;
+    color: #fff;
+    border-radius: 3px;
+    margin-bottom: 0!important;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.services .wp-block-column:not(:last-child) {
+    margin-right: 1.493%!important;
+}
+.services .wp-block-column p {
+    font-size: 14px;
+}
+.services .wp-block-column strong {
+    font-size: 18px;
+}
+.services .s1.wp-block-column {
+    background: url(/wp-content/themes/storefront-child/img/s1.png), linear-gradient( -59deg, rgba(0, 150, 227, 1) 0%, rgba(104, 34, 200, 1) 100%);
+    background-repeat: no-repeat;
+    background-position: top right;
+}
+.services .s2.wp-block-column {
+    background: url(/wp-content/themes/storefront-child/img/s2.png), linear-gradient( -59deg, rgba(0, 150, 227, 1) 0%, rgba(104, 34, 200, 1) 100%);
+    background-repeat: no-repeat;
+    background-position: top right;
+}
+.services .s3.wp-block-column {
+    background: url(/wp-content/themes/storefront-child/img/s3.png), linear-gradient( -59deg, rgba(0, 150, 227, 1) 0%, rgba(104, 34, 200, 1) 100%);
+    background-repeat: no-repeat;
+    background-position: top right;
+}
+.services .s4.wp-block-column {
+    background: url(/wp-content/themes/storefront-child/img/s4.png), linear-gradient( -59deg, rgba(0, 150, 227, 1) 0%, rgba(104, 34, 200, 1) 100%);
+    background-repeat: no-repeat;
+    background-position: top right;
+}
+.services .s5.wp-block-column {
+    background: url(/wp-content/themes/storefront-child/img/s5.png), linear-gradient( -59deg, rgba(0, 150, 227, 1) 0%, rgba(104, 34, 200, 1) 100%);
+    background-repeat: no-repeat;
+    background-position: top right;
+}
+.services .s6.wp-block-column {
+    background: url(/wp-content/themes/storefront-child/img/s6.png), linear-gradient( -59deg, rgba(0, 150, 227, 1) 0%, rgba(104, 34, 200, 1) 100%);
+    background-repeat: no-repeat;
+    background-position: top right;
+}
+.s1:before, .s3:before, .s5:before {
+    content: '';
+    width: 43px;
+    height: 42px;
+    background: url(/wp-content/themes/storefront-child/img/safter1.png);
+    display: block;
+    background-repeat: no-repeat;
+}
+.s2:before, .s4:before, .s6:before {
+    content: '';
+    width: 46px;
+    height: 46px;
+    background: url(/wp-content/themes/storefront-child/img/safter2.png);
+    display: block;
+    background-repeat: no-repeat;
+}

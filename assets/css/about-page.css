@@ -1,0 +1,450 @@
+.about-columns .wp-block-column {
+    background: #fff;
+    border-radius: 5px;
+    padding: 3.125em !important;
+}
+
+/**top banner**/
+#about-top {
+    background: url("/wp-content/themes/storefront-child/img/about-top.jpeg") center 0 no-repeat;
+    height: 370px;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 100%;
+    position: relative;
+    border-radius: 5px;
+    margin-bottom: 3.125em;
+}
+
+#about-top article {
+    height: 370px;
+    position: absolute;
+    text-align: left;
+    top: 90px;
+    width: 100%;
+    left: 90px;
+    max-width: 30%;
+}
+
+#about-top h2 {
+    font-size: 1.565em;
+    color: #fff;
+    letter-spacing: normal;
+    margin-bottom: .65em;
+}
+
+#about-top h4 {
+    font-size: 1.12em;
+    color: #fff;
+    letter-spacing: normal;
+    margin-bottom: 2.1em;
+}
+
+#about-top button {
+    background: no-repeat;
+    border: solid 1px #ffbe4e;
+    border-radius: 2px;
+    font-size: .65em;
+    line-height: .65em;
+    padding: 20px 30px;
+}
+
+.about-columns .wp-block-column {
+    box-shadow: 0 3px 8px rgb(0 0 0 / 20%);
+}
+
+.article-wrapper {
+    background: linear-gradient(111deg, rgb(104 33 200 / 75%) 0%, rgb(0 150 227 / 75%) 100%);
+    height: 370px;
+    border-radius: 5px;
+}
+
+/**наши работы**/
+.works .slick-track {
+    padding-bottom: 10px;
+}
+
+.works.wp-block-latest-posts li {
+    margin: 0 10px !important;
+}
+
+/*works*/
+.works.slick-slider {
+    margin: 0 -10px calc(3.75em - 8px) -10px !important;
+}
+
+.works li.slick-slide {
+    clear: inherit;
+    background: #fff;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.works.wp-block-latest-posts li {
+    box-shadow: 0 3px 8px rgb(0 0 0 / 20%);
+    border-radius: 5px;
+    transition: all .3s ease;
+}
+
+.works.wp-block-latest-posts li:hover {
+    box-shadow: unset;
+    transition: all .3s ease;
+}
+
+.hentry .entry-content .works.wp-block-latest-posts li>a {
+    padding: 8% 16% 0 8%;
+    display: inline-block;
+    max-width: 50%;
+}
+
+.works .wp-block-latest-posts__post-excerpt {
+    font-size: 14px;
+    color: #b8b8b8;
+    max-width: 50%;
+    display: inline-block;
+    padding: 0 8%;
+    margin-top: 1em;
+}
+
+.works .wp-block-latest-posts__featured-image.alignleft {
+    margin-right: 0;
+    margin-bottom: 0;
+    max-width: 50% !important;
+    border-radius: 5px 0 0 5px !important;
+    line-height: 0;
+}
+
+.works a {
+    color: #000;
+    text-decoration: none !important;
+    font-size: 1.125em;
+    font-weight: bold;
+}
+
+.works .wp-block-latest-posts__post-excerpt a {
+    font-weight: inherit;
+    color: inherit;
+    font-size: inherit;
+}
+
+.hentry .works .wp-post-image {
+    margin-bottom: 0;
+    border-radius: 5px 0 0 5px !important;
+    width: 100%;
+    position: relative;
+    z-index: 10;
+    opacity: .5;
+    transition: all .3s ease;
+}
+
+.hentry .works.wp-block-latest-posts li:hover .wp-post-image {
+    opacity: 1;
+    transition: all .3s ease;
+}
+
+.wp-block-latest-posts__featured-image a:after {
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: linear-gradient(111deg, rgba(0, 150, 227, 1) 0%, rgba(104, 33, 200, 1) 100%);
+    text-align: center;
+    margin: 0 auto;
+    border-radius: 5px 0 0 5px !important;
+    z-index: 5;
+    transition: all .3s ease;
+    opacity: 1;
+}
+
+.works.wp-block-latest-posts li:hover .wp-block-latest-posts__featured-image a:after {
+    opacity: 0;
+    transition: all .3s ease;
+}
+
+.wp-block-latest-posts__featured-image a {
+    position: relative;
+}
+
+.aftertitle {
+    float: right;
+    margin: 0;
+    line-height: 2.45em;
+    font-size: .875em;
+}
+
+.aftertitle a {
+    color: #fe6f3d;
+    text-decoration: none !important;
+}
+
+.aftertitle:hover a:after {
+    transform: rotate(-90deg);
+    transition: all .3s ease;
+    background: white;
+    border: 1px solid #fe6f3d;
+}
+
+.aftertitle a:after {
+    display: inline-block;
+    font-family: Font Awesome\ 5 Free;
+    content: "\f30b";
+    height: 2.5em;
+    border: 1px solid #b8b8b8;
+    border-radius: 50%;
+    width: 2.5em;
+    text-align: center;
+    margin-left: 1.4285714285714286em;
+    transition: all .3s ease;
+}
+
+.beforetitle {
+    float: left;
+    font-size: 1.875em;
+    font-weight: normal;
+}
+
+.competition-title {
+    font-size: 1.875em;
+    font-weight: normal
+}
+
+/**категории**/
+.about-categories {
+    background: #fff;
+    border-radius: 5px;
+    padding: 3.125em !important;
+    margin-bottom: 3.125em;
+    box-shadow: 0 3px 8px rgb(0 0 0 / 20%);
+}
+
+.about-categories ul {
+    list-style: none;
+    column-count: 3;
+    margin: 0;
+}
+
+.about-categories li a {
+    text-decoration: none !important;
+    color: black;
+    font-size: 1.125em;
+
+}
+
+.about-categories li a::before {
+    content: "";
+    background-size: 35px 35px;
+    background-repeat: no-repeat;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    vertical-align: middle;
+    margin: 5px 20px 5px 10px !important;
+    display: inline-block;
+    transition: all .3s ease;
+}
+
+.about-categories li a:hover::before {
+    transform: scale(1.25);
+    margin: 5px 25px 5px 10px !important;
+    transition: all .3s ease;
+}
+
+.about-categories li:nth-child(1) a::before {
+    background-image: url(//volt.kz/wp-content/uploads/2021/04/battery.svg);
+}
+
+.about-categories li:nth-child(2) a::before {
+    background-image: url(//volt.kz/wp-content/uploads/2021/05/socket.svg);
+}
+
+.about-categories li:nth-child(3) a::before {
+    background-image: url(//volt.kz/wp-content/uploads/2021/05/usb-cable.svg);
+}
+
+.about-categories li:nth-child(4) a::before {
+    background-image: url(//volt.kz/wp-content/uploads/2021/05/wire-1.svg);
+}
+
+.about-categories li:nth-child(5) a::before {
+    background-image: url(//volt.kz/wp-content/uploads/2021/05/bolts.svg);
+}
+
+.about-categories li:nth-child(6) a::before {
+    background-image: url(//volt.kz/wp-content/uploads/2021/05/tools.svg);
+}
+
+.about-categories li:nth-child(7) a::before {
+    background-image: url(//volt.kz/wp-content/uploads/2021/05/lamp.svg);
+}
+
+.about-categories li:nth-child(8) a::before {
+    background-image: url(//volt.kz/wp-content/uploads/2021/05/security-camera.svg);
+}
+
+.about-categories li:nth-child(9) a::before {
+    background-image: url(//volt.kz/wp-content/uploads/2021/05/router.svg);
+}
+
+.about-categories li:nth-child(10) a::before {
+    background-image: url(//volt.kz/wp-content/uploads/2021/05/laptop.svg);
+}
+
+.about-categories li:nth-child(11) a::before {
+    background-image: url(//volt.kz/wp-content/uploads/2021/05/pos.svg);
+}
+
+.about-categories li:nth-child(12) a::before {
+    background-image: url(//volt.kz/wp-content/uploads/2021/06/cog.svg);
+}
+
+/**how we work**/
+.howework {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 6.125em;
+}
+
+.howework i {
+    background-size: cover;
+    height: 70px;
+    width: 70px;
+    display: block;
+    background: linear-gradient(to bottom, #fe6f3d, #ffbe4e);
+    border-radius: 50%;
+    padding: 25%;
+}
+
+.howework i:after {
+    content: "";
+    background-image: url(//volt.kz/wp-content/themes/storefront-child/img/settings.svg);
+    height: 35px;
+    width: 35px;
+    background-size: cover;
+    display: block;
+    animation: spin 4s linear infinite;
+}
+
+.howework p {
+    position: absolute;
+    margin-top: 15px;
+}
+
+.howework img.transform {
+    transform: scaleY(-1) rotate(-15deg) translateY(-25px);
+}
+
+.howework img {
+    transform: rotate(-15deg) translateY(5px);
+    width: 100px;
+    height: 38px;
+}
+
+@-moz-keyframes spin {
+    100% {
+        -moz-transform: rotate(360deg);
+    }
+}
+
+@-webkit-keyframes spin {
+    100% {
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+@keyframes spin {
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+
+@media (max-width:768px) {
+    .beforetitle {
+        font-size: 1.5em;
+    }
+
+    .works.slick-slider {
+        margin: 0 -10px 4.5em -10px !important;
+    }
+
+    .works .slick-dots li {
+        position: relative;
+        display: inline-block;
+        width: 20px !important;
+        height: 20px !important;
+        margin: 0 5px;
+        padding: 0;
+        cursor: pointer;
+        background: none;
+        box-shadow: none;
+    }
+
+    .slick-dots li button {
+        font-size: 0;
+        line-height: 0;
+        display: block;
+        width: 20px;
+        height: 20px;
+        padding: 5px;
+        cursor: pointer;
+        color: transparent;
+        border: 0;
+        outline: none;
+        background: transparent;
+    }
+
+    .slick-dots li.slick-active button:before {
+        color: #fe6f3d;
+        font-size: 12px;
+    }
+
+    .slick-dots li button:before {
+        font-family: Font Awesome\ 5 Free;
+        font-size: 8px;
+        content: "\f111";
+        color: #b8b8b8;
+        vertical-align: text-top;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+    }
+
+    .slick-dots {
+        display: inline-flex !important;
+        justify-content: center;
+    }
+
+    .works .wp-block-latest-posts__featured-image.alignleft {
+        width: auto;
+    }
+
+    .hentry .works .wp-post-image {
+        border-radius: 5px 5px 0 0 !important;
+    }
+
+    .wp-block-latest-posts__featured-image a:after {
+        border-radius: 5px 5px 0 0 !important;
+    }
+
+    .hentry .entry-content .works.wp-block-latest-posts li>a,
+    .works .wp-block-latest-posts__post-excerpt {
+        max-width: 100%;
+    }
+
+    .works .wp-block-latest-posts__featured-image.alignleft {
+        max-width: 100% !important;
+    }
+
+    .hentry .entry-content .works.wp-block-latest-posts li>a {
+        padding: 1.66666em 1.1111em 0 1.1111em;
+        line-height: 18px;
+        min-height: 71px;
+    }
+
+    .works .wp-block-latest-posts__post-excerpt {
+        padding: 0 30% 0 1.4286em;
+    }
+}

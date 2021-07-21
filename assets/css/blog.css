@@ -1,0 +1,5 @@
+@media (min-width: 768px) {
+.left-sidebar .content-area {
+    width: 100%;
+}
+}

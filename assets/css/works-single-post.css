@@ -1,0 +1,127 @@
+.single .category-works {
+    background: white;
+    padding: 3.35em 6.25em;
+    border-radius: 5px;
+    box-shadow: 0 3px 8px rgb(0 0 0 / 20%);
+}
+.category-works #primary,
+.single #primary {
+    width: 100%;
+}
+.archive.category-works .wp-block-latest-posts__post-excerpt a {
+    font-size: inherit;
+    font-weight: inherit;
+    color: inherit;
+}
+
+.hentry .entry-header {
+    border-bottom: none;
+}
+
+.category article {
+    width: calc(50% - 1.25em);
+    float: left;
+    margin: 0 0 1.25em 1.25em;
+    background: #fff;
+    border-radius: 5px 0 0 5px;
+    position: relative;
+    right: 1.25em;
+    box-shadow: 0 3px 8px rgb(0 0 0 / 20%);
+    transition: .3s all ease;
+}
+
+.category article:hover {
+    box-shadow: none;
+    transition: .3s all ease;
+}
+
+.archive.category-works .hentry .wp-post-image {
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    float: left;
+    border-radius: 5px 0 0 5px;
+    width: 50%;
+}
+
+.archive.category-works header h2 a {
+    text-decoration: none !important;
+    color: #000;
+    font-weight: bold;
+}
+
+.archive.category-works .posted-on {
+    margin-bottom: .875em;
+    display: inline-block;
+    color: #5b5b5b;
+}
+
+.archive.category-works .posted-on a {
+    font-weight: normal;
+    text-decoration: none;
+    color: #5b5b5b;
+}
+
+.archive.category-works .alpha {
+    font-size: 1.125em;
+    line-height: 18px;
+    letter-spacing: normal;
+}
+
+.archive.category-works .hentry .entry-header {
+    padding: 2em 4.9em 0 2.45em;
+    border-bottom: none;
+    width: 50%;
+    float: right;
+    margin-bottom: 0;
+}
+
+.archive.category-works .entry-content>p {
+    margin: 0;
+    width: 50%;
+    padding: 0 4.9em 0 2.45em;
+    font-size: .875em;
+    position: absolute;
+    bottom: 2.75em;
+    right: 0;
+    color: #5b5b5b;
+}
+
+.archive.category-works .entry-content a {
+    display: block;
+}
+
+
+
+.sticky .entry-title:before {
+    display: none;
+}
+
+
+
+.post-author {
+    display: none;
+}
+
+@media (max-width:768px) {
+.category article {
+    width: 100%;
+}
+.archive.category-works .hentry .wp-post-image {
+    border-radius: 0;
+    width: 100%;
+}
+.archive.category-works .hentry .entry-header {
+    width: 100%;
+    padding: 1em 1em 0 1em;
+}
+.archive.category-works .entry-content>p {
+    width: 100%;
+    padding: 1em;
+    bottom: 0;
+    background: linear-gradient(90deg, white, transparent);
+}
+.single .category-works {
+    padding: 1em;
+}
+}
